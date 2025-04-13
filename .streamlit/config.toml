@@ -1,0 +1,12 @@
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+
+[general]
+# Define qual arquivo será executado
+target = "app/usuario.py"

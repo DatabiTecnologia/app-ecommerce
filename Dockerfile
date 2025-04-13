@@ -15,4 +15,4 @@ COPY app/ ./app/
 EXPOSE 8501
 
 # Comando para rodar o Streamlit apontando para o update_data.py
-CMD ["streamlit", "run", "app/update_data.py", "--server.port=8501", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "app/usuario.py", "--server.port=8501", "--server.address=0.0.0.0"]

@@ -14,6 +14,7 @@ engine = create_engine(DATABASE_URL)
 senha_correta = "admin123"
 st.markdown("## 🔐 Login")
 
+
 senha = st.text_input("Digite a senha de acesso", type="password")
 
 if senha != senha_correta:
